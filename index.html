@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-Theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,51 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <header>
+      <nav class="flex justify-between items-center mx-16 mt-12">
+        <img class="w-[130px]" src="./img/Logo.png" alt="" />
+        <button class="btn block">Sort by view</button>
+        <button class="btn bg-red-600 hover:bg-red-600 text-white">Blog</button>
+      </nav>
+      <hr class="mt-7 mx-16" />
+    </header>
+    <main class="ml-16">
+      <section>
+        <div
+          id="btn-container"
+          class="mt-8 mx-16 mb-10 flex justify-center gap-6"
+        ></div>
+      </section>
+      <section>
+        <div
+          id="card-container"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-24 mx-auto"
+        >
+          <!-- <div class="card w-96 bg-base-100 shadow-xl">
+            <figure>
+              <img
+                src="./img/Icon.png"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body">
+              <div class="flex gap-2">
+                <div>
+                  <img class="w-[80px] h-[50px]" src="./img/Icon.png" alt="" />
+                </div>
+                <div>
+                  <h2 class="card-title">
+                    Building a Winning UX Strategy Using the Kano Model
+                  </h2>
+                  <p>Awlad Hossain</p>
+                  <p>91K views</p>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
     <!-- Script's -->
     <script src="./script.js"></script>
   </body>
